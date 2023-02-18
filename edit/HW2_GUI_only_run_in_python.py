@@ -16,8 +16,7 @@ n2 = 0
 photo1 = tk.PhotoImage(file="x.png")
 photo1 = photo1.subsample(5,5)
 
-photo2 = tk.PhotoImage(file="y.png")
-photo2 = photo2.subsample(5,5)
+
 
 img1 = tk.Label(GUI, image=photo1)
 img1.place(x = 70 , y = 50)
